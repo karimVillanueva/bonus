@@ -1,0 +1,33 @@
+{
+  "name": "bonus",
+  "version": "1.0.0",
+  "description": "This is a technical test",
+  "main": "index.js",
+  "scripts": {
+    "start": "standard && node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karimVillanueva/bonus.git"
+  },
+  "keywords": [
+    "UpperCase",
+    "Lowcase"
+  ],
+  "author": "karim villanueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karimVillanueva/bonus/issues"
+  },
+  "homepage": "https://github.com/karimVillanueva/bonus#readme",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
