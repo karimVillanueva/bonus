@@ -1,5 +1,5 @@
 /* eslint-disable */
-const ulcase = require('./index') // Adjust the path as necessary
+const ulcase = require('./index')
 
 describe('ulcase function', () => {
   test('should convert all characters before a dot to uppercase', () => {
